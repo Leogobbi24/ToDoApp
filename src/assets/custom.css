@@ -73,3 +73,21 @@ button:hover{
 	background-color: #E8E8E8;
 	padding: 20px 30px;
 }
+.todoBox ul{
+	list-style-type: none;
+	padding-left: 0px;
+	margin: 0px;
+}
+.todoBox ul li{
+	line-height: 2;
+	cursor: pointer;
+	transition: 0.2s ease;
+}
+.todoBox ul li:hover{
+	color: #aaa;
+	padding-left: 10px;
+}
+.done{
+	text-decoration: line-through;
+	color: #aaa;
+}
